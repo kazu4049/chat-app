@@ -1,4 +1,18 @@
+AppName
+memorandum
+
+Descriptions
+写真投稿
+コメント機能
+新規登録/ログイン
+
+Production
+チャットルーム作成し、ユーザー間でその日の出来事を備忘録的に残して置くことが可能。
+
+
+
 # テーブル設計
+
 
 ## users テーブル
 
