@@ -8,6 +8,8 @@
 
 ## 機能
 - 新規登録・ログイン
+<img width="1440" alt="スクリーンショット 2021-05-03 16 08 30" src="https://user-images.githubusercontent.com/79551605/116850451-a5ca4580-ac2b-11eb-9edf-931d163aac0b.png">
+<img width="1440" alt="スクリーンショット 2021-05-03 16 18 27" src="https://user-images.githubusercontent.com/79551605/116850433-9e0aa100-ac2b-11eb-9d0b-67cab46ceb44.png">
 - 画像投稿機能（複数枚）⇦実装中
 - コメント機能
 - 登録の際のエラーメッセージの日本語化
