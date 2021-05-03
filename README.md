@@ -11,8 +11,6 @@ Production
 
 
 
-# テーブル設計
-
 
 ## users テーブル
 
@@ -22,11 +20,12 @@ Production
 | email    | string | null: false |
 | password | string | null: false |
 
-### Association
 
 - has_many :room_users
 - has_many :rooms, through: room_users
 - has_many :messages
+
+
 
 ## rooms テーブル
 
@@ -34,7 +33,6 @@ Production
 | ------ | ------ | ----------- |
 | name   | string | null: false |
 
-### Association
 
 - has_many :room_users
 - has_many :users, through: room_users
@@ -47,12 +45,13 @@ Production
 | user   | references | null: false, foreign_key: true |
 | room   | references | null: false, foreign_key: true |
 
-### Association
-
 - belongs_to :room
 - belongs_to :user
 
+
+
 ## messages テーブル
+
 
 | Column  | Type       | Options                        |
 | ------- | ---------- | ------------------------------ |
@@ -60,7 +59,6 @@ Production
 | user    | references | null: false, foreign_key: true |
 | room    | references | null: false, foreign_key: true |
 
-### Association
 
 - belongs_to :room
 - belongs_to :user
